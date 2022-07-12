@@ -10,7 +10,7 @@
 
 %%100 packets of 100 bits as a function 
 
-function Success=EE350hw4(n)    %n is number of packets with 5 or fewer errors(since in function can be changed)
+function Success=BernProb(n)    %n is number of packets with 5 or fewer errors(since in function can be changed)
     Bits=floor(randi(2, 1, 100)/2); %Bits boolean matrix shows 0 or 1 value of bits
     %disp(Bits)
     
